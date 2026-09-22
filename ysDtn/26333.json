@@ -1,0 +1,560 @@
+最新前沿技术资讯
+
+一、入门教程｜Getting Started
+原标题：vue3 组合式 API 业务开发实战
+简介：golang clickhouse go 客户端数据写入，clickhouse‑go 客户端写入查询，海量时序数据分析业务。
+ | 原文链接：http://wap.aadlic.asia/blog/4061695.sHtMl
+
+原标题：golang 系统设计内部服务契约测试简单思路
+简介：golang bytes.Buffer 字节缓冲区使用，bytes.Buffer 字节内存缓冲区，拼接字节，避免频繁内存分配。
+ | 原文链接：http://wap.aadlic.asia/blog/0605024.sHtMl
+
+原标题：缓存过期策略优化防业务故障
+简介：golang http 代理客户端配置，Go HTTP Client 配置代理，通过代理服务器发起网络请求。
+ | 原文链接：http://wap.aadlic.asia/blog/5190404.sHtMl
+
+原标题：设计思考：分布式ID系统架构选型对比
+简介：golang redis hash 结构业务实战，使用 Redis Hash 存储对象数据，适合对象字段频繁更新业务场景。
+ | 原文链接：http://wap.aadlic.asia/blog/2857392.sHtMl
+
+原标题：golang 系统设计单元测试表驱动测试 table‑driven
+简介：golang proto 默认值坑点梳理，梳理 Protobuf 默认值坑，零值字段区分未赋值，避免业务逻辑错误。
+ | 原文链接：http://wap.aadlic.asia/blog/9691673.sHtMl
+
+原标题：Practice：从零实现轻量后端接口服务完整实践
+简介：golang ioutil 已废弃替换方案，ioutil 废弃之后替换为 os io 包函数，更新旧项目代码。
+ | 原文链接：http://wap.aadlic.asia/blog/0606707.sHtMl
+
+原标题：css 动画性能优化 GPU 加速
+简介：MySQL 慢查询索引优化实战，抓取慢查询 SQL，分析执行计划，新增或者调整索引，提升 SQL 执行速度。
+ | 原文链接：http://wap.aadlic.asia/blog/0156350.sHtMl
+
+原标题：echarts 大数据渲染性能调优
+简介：golang cgo 性能开销避坑指南，cgo 调用开销，减少频繁 cgo 调用，规避 cgo 带来内存泄漏风险。
+ | 原文链接：http://wap.aadlic.asia/blog/7406795.sHtMl
+
+原标题：golang 系统设计定时任务分布式锁
+简介：内存溢出问题现象识别排查，识别内存溢出现象，梳理排查方向，定位内存持续上涨引发服务崩溃问题。
+ | 原文链接：http://wap.aadlic.asia/blog/5103995.sHtMl
+
+原标题：golang 系统设计分表 id 生成策略对比
+简介：慢查询分析索引调优数据库实战，抓取慢查询，分析执行计划，优化索引，解决数据库慢查询拖慢业务。
+ | 原文链接：http://wap.aadlic.asia/blog/3059280.sHtMl
+
+原标题：golang redis 布隆过滤器安装使用
+简介：接口签名验签完整安全方案，一套完整接口签名方案，包含签名生成、请求携带、服务端验签校验。
+ | 原文链接：http://wap.aadlic.asia/blog/2481373.sHtMl
+
+原标题：性能笔记：服务CPU高负载定位分析完整步骤
+简介：golang go‑zero 配置中心热更新，go‑zero 对接 etcd 配置中心，配置热更新无需重启服务。
+ | 原文链接：http://wap.aadlic.asia/blog/8169471.sHtMl
+
+原标题：开发复盘：长轮询接口实现服务端消息推送
+简介：golang 多协程任务池并发控制，实现协程任务池，控制并发协程数量，防止无限制创建 goroutine。
+ | 原文链接：http://wap.aadlic.asia/blog/9527957.sHtMl
+
+原标题：YAML 配置文件语法快速上手
+简介：golang 错误处理最佳实践汇总，Go 错误处理规范，包装错误，堆栈携带，拒绝简单忽略错误。
+ | 原文链接：http://wap.aadlic.asia/blog/2969180.sHtMl
+
+原标题：golang 系统设计 README 开源文档模板
+简介：磁盘 inode 耗尽文件创建失败，排查磁盘 inode 占用，清理大量小文件，恢复文件创建能力。
+ | 原文链接：http://wap.aadlic.asia/blog/3804028.sHtMl
+
+原标题：Practice：实现请求ID透传全链路日志实践
+简介：golang 处理连接被重置 reset 错误，识别 connection reset by peer，对端关闭连接异常处理逻辑。
+ | 原文链接：http://wap.aadlic.asia/blog/3936472.sHtMl
+
+原标题：golang mysql limit 大分页优化
+简介：golang context.WithValue 传递元数据，WithValue 只传 traceId 鉴权元数据，不要传业务大对象。
+ | 原文链接：http://wap.aadlic.asia/blog/5150191.sHtMl
+
+原标题：实战：数据库explain执行计划分析实操演练
+简介：golang 接口返回统一封装工具，封装 Go 接口统一返回工具，标准化成功失败返回结构体。
+ | 原文链接：http://wap.aadlic.asia/blog/3635124.sHtMl
+
+原标题：线上异常：缓存雪崩带来数据库压力瞬间飙升
+简介：golang sort 稳定排序 Stable，稳定排序保留相等元素原有顺序，业务需要稳定排序场景。
+ | 原文链接：http://wap.aadlic.asia/blog/9391579.sHtMl
+
+原标题：架构笔记：数据库读写分离架构数据不一致应对
+简介：项目构建脚本编译打包解析，解读项目构建脚本，理清编译、压缩、资源复制流程，理解打包后产物如何生成。
+ | 原文链接：http://wap.aadlic.asia/blog/1356003.sHtMl
+
+原标题：踩坑：Docker容器内时区不一致引发的时间BUG
+简介：golang strconv 字符串类型转换，字符串转数字布尔，处理转换失败 error，避免 panic。
+ | 原文链接：http://wap.aadlic.asia/blog/3040581.sHtMl
+
+原标题：实战项目：多实例部署会话一致性验证实践
+简介：golang bufio.Scanner 缓冲区调大，Scanner 默认缓冲区大小不够，读取超长行需要扩大缓冲区。
+ | 原文链接：http://wap.aadlic.asia/blog/4039402.sHtMl
+
+原标题：rebase 操作防止代码丢失
+简介：golang 日志输出 stdout 标准输出规范，容器环境日志输出到 stdout，由容器平台统一采集日志文件。
+ | 原文链接：http://wap.aadlic.asia/blog/7469681.sHtMl
+
+原标题：Practice：实现多级缓存本地缓存+Redis实践
+简介：nodejs 集成测试业务流程编写，编写 Node 集成测试，调用真实接口，验证完整业务链路执行结果。
+ | 原文链接：http://wap.aadlic.asia/blog/1704682.sHtMl
+
+原标题：Docker 多阶段构建镜像瘦身
+简介：前端下载导出文件功能实现，前端实现文件流下载导出，处理异常，适配浏览器不同下载行为。
+ | 原文链接：http://wap.aadlic.asia/blog/8694726.sHtMl
+
+原标题：golang k8s secret 加密敏感信息
+简介：API 大版本不兼容平滑迁移，API 版本迭代不兼容旧接口，设计平滑迁移方案，逐步完成版本切换。
+ | 原文链接：http://wap.aadlic.asia/blog/0604807.sHtMl
+
+原标题：Issue：文件编码混合GBKUTF‑8乱码随机出现
+简介：分布式 ID 全局唯一生成方案，讲解分布式 ID 生成思路，实现全局唯一 ID，满足分布式系统主键生成需求。
+ | 原文链接：http://wap.aadlic.asia/blog/3041391.sHtMl
+
+原标题：消息队列生产消费模型入门
+简介：golang go 零停机升级实践要点，socket 继承，流量无损，旧连接处理完毕后旧进程退出。
+ | 原文链接：http://wap.aadlic.asia/blog/7279403.sHtMl
+
+原标题：golang viper 配置热更新实操
+简介：golang docker 镜像构建最佳实践，Go 项目 Docker 镜像构建最佳实践，减小镜像体积，安全构建。
+ | 原文链接：http://wap.aadlic.asia/blog/8230786.sHtMl
+
+原标题：golang 系统设计文件存储选型对比
+简介：golang sync.RWMutex 读写锁使用场景，读多写少场景读写锁，读共享写互斥，提升并发性能。
+ | 原文链接：http://wap.aadlic.asia/blog/9210989.sHtMl
+
+原标题：golang etcd 配置中心简单使用
+简介：golang tcp_NODELAY 关闭延迟发送，设置 tcp_NODELAY，关闭 Nagle 算法，降低小包请求延迟。
+ | 原文链接：http://wap.aadlic.asia/blog/5226791.sHtMl
+
+原标题：运维笔记：备份策略数据库定时备份脚本
+简介：Nginx 反向代理路由配置实战，配置 Nginx 反向代理，实现请求转发、路由分发，掌握 Nginx 基础配置能力。
+ | 原文链接：http://wap.aadlic.asia/blog/3257230.sHtMl
+
+原标题：golang docker 网络模式桥接 host
+简介：golang time 定时器重置 Reset 正确用法，Timer Reset 调用前提，避免 Reset 带来逻辑错误。
+ | 原文链接：http://wap.aadlic.asia/blog/6372468.sHtMl
+
+原标题：入门实践：使用模板快速生成项目脚手架
+简介：golang csv 读写批量数据处理，Go 读写 CSV 文件，批量导入导出业务数据，处理 CSV 格式解析。
+ | 原文链接：http://wap.aadlic.asia/blog/9517813.sHtMl
+
+原标题：golang 系统设计分布式锁红锁优缺点梳理
+简介：缓存过期策略优化防业务故障，合理设置缓存过期策略，规避集中过期，减少缓存失效带来业务抖动。
+ | 原文链接：http://wap.aadlic.asia/blog/9695706.sHtMl
+
+原标题：golang md5 sha 加密工具实现
+简介：CLI 批量处理工具文件操作开发，开发命令行批量工具，实现批量文件处理，提升重复文件处理效率。
+ | 原文链接：http://wap.aadlic.asia/blog/1714481.sHtMl
+
+原标题：部署实践：Nginx高可用配置方案实践
+简介：golang go 接口定义原则小接口，go 小接口设计原则，接口尽量小，只定义必要方法，提升代码灵活性。
+ | 原文链接：http://wap.aadlic.asia/blog/6572391.sHtMl
+
+原标题：golang 单例模式实现几种方式
+简介：ICMP 放通网络丢包问题修复，放开 ICMP 协议，解决 MTU 问题导致网络丢包，修复网络不稳定现象。
+ | 原文链接：http://wap.aadlic.asia/blog/2814938.sHtMl
+
+原标题：Hands‑on：简易的事件订阅发布组件开发实践
+简介：golang url 解析路径参数提取，url.Parse 解析 url，获取协议主机路径查询参数。
+ | 原文链接：http://wap.aadlic.asia/blog/8413624.sHtMl
+
+原标题：性能复盘：网络IO优化减少接口等待时间
+简介：golang ctx 传递规则不要存结构体，context 作为函数参数传递，禁止放入结构体字段存储。
+ | 原文链接：http://wap.aadlic.asia/blog/4157251.sHtMl
+
+
+二、踩坑排错｜Troubleshooting
+原标题：Practice：实现批量任务失败断点续跑实践
+简介：golang gitlab ci go 项目流水线编写，gitlab ci 流水线执行单元测试、静态检查、构建推送镜像。
+ | 原文链接：http://wap.aadlic.asia/blog/1813834.sHtMl
+
+原标题：golang 单元测试 mock http 请求
+简介：golang http client 连接池调优，调优 Go HTTP Client 连接池参数，复用 TCP 连接，减少连接创建开销。
+ | 原文链接：http://wap.aadlic.asia/blog/2825040.sHtMl
+
+原标题：golang 系统设计 mq 消息丢失完整防护
+简介：nodejs 全局异常捕获进程防护，捕获未捕获异常与 Promise 拒绝，尽量保护进程不因为异常直接退出。
+ | 原文链接：http://wap.aadlic.asia/blog/7373340.sHtMl
+
+原标题：golang 错误包装 errors.wrap 用法
+简介：浮点计算精度错误处理方案，讲解浮点数计算精度丢失问题，使用合适数据类型，规避金额计算出错。
+ | 原文链接：http://wap.aadlic.asia/blog/4070462.sHtMl
+
+原标题：踩坑记录：UTC时间与本地时间混用逻辑错乱
+简介：动态定时任务业务调度实现，实现可以动态增删启停定时任务，无需重启服务调整调度任务。
+ | 原文链接：http://wap.aadlic.asia/blog/4710170.sHtMl
+
+原标题：线上异常：接口偶发超时，完整定位过程记录
+简介：golang 布隆过滤器实现去重，Go 实现布隆过滤器，海量数据去重，节省内存开销，提升判断效率。
+ | 原文链接：http://wap.aadlic.asia/blog/6268341.sHtMl
+
+原标题：Issue：Docker网络模式选择错误容器互通失败
+简介：golang defer 执行顺序与坑点，defer 后进先出，循环内部 defer 陷阱，资源释放正确写法。
+ | 原文链接：http://wap.aadlic.asia/blog/0678025.sHtMl
+
+原标题：Troubleshooting：Nginx缓冲区过小大文件上传失败
+简介：nodejs 脚手架工具开发完整教程，从零开发 Node 命令行脚手架，实现项目模板生成，理解 CLI 开发。
+ | 原文链接：http://wap.aadlic.asia/blog/5056201.sHtMl
+
+原标题：限流组件计数器令牌桶模式实现
+简介：golang 数据库 ORM 框架选型对比，gorm xorm sqlx 对比各 ORM 优缺点，根据业务场景选型。
+ | 原文链接：http://wap.aadlic.asia/blog/9687356.sHtMl
+
+原标题：golang 系统设计定时任务调度时间校准要点
+简介：golang io.MultiReader MultiWriter 拼接流，多个 reader 拼接，多 writer 同时写入一份数据。
+ | 原文链接：http://wap.aadlic.asia/blog/1791178.sHtMl
+
+原标题：从零学习简单分页逻辑实现思路
+简介：业务错误码完整落地实践，落地完整业务错误码，枚举全部业务异常，统一返回，配套文档说明。
+ | 原文链接：http://wap.aadlic.asia/blog/2823902.sHtMl
+
+原标题：无用对象回收抑制内存上涨
+简介：golang 系统信号信号量处理，Go 处理系统各类信号，SIGINT、SIGTERM，实现程序可控退出。
+ | 原文链接：http://wap.aadlic.asia/blog/9594694.sHtMl
+
+原标题：零基础理解版本控制核心概念与工作流
+简介：数据库主从延迟业务兼容处理，业务适配主从复制延迟，避免读取从库拿到还未同步完成旧数据。
+ | 原文链接：http://wap.aadlic.asia/blog/6756636.sHtMl
+
+原标题：golang redis 分布式锁 redisson 思路
+简介：golang race 检测器性能开销，race 检测器有性能损耗，只用于测试环境，禁止生产开启 race。
+ | 原文链接：http://wap.aadlic.asia/blog/4081691.sHtMl
+
+原标题：golang 系统设计 protobuf 枚举类型规范写法
+简介：Git 代码冲突正确处理方式，讲解冲突产生场景，演示冲突文件修改，正确合并代码，防止代码丢失。
+ | 原文链接：http://wap.aadlic.asia/blog/4191281.sHtMl
+
+原标题：零基础理解内存溢出基础现象与表现
+简介：内网 DNS 不稳定随机报错排查，定位内网 DNS 抖动问题，配置备选 DNS，解决偶现域名解析失败。
+ | 原文链接：http://wap.aadlic.asia/blog/8691516.sHtMl
+
+原标题：Troubleshooting：Nginx缓冲区过小大文件上传失败
+简介：golang go 爬虫 robots 协议遵守，解析 robots.txt 规则，控制爬虫抓取范围，合规采集网页数据。
+ | 原文链接：http://wap.aadlic.asia/blog/2484512.sHtMl
+
+原标题：golang 系统设计防重复提交实现
+简介：golang oss 签名 URL 临时访问，生成 oss 临时签名 url，限时访问私有文件，保障文件访问安全可控。
+ | 原文链接：http://wap.aadlic.asia/blog/2813038.sHtMl
+
+原标题：零基础理解内存溢出基础现象与表现
+简介：golang go proxy 私有代理配置，配置 go proxy 私有代理，加速依赖下载，内网环境构建项目。
+ | 原文链接：http://wap.aadlic.asia/blog/9591279.sHtMl
+
+原标题：Practice：从零实现轻量后端接口服务完整实践
+简介：golang 协程 panic 捕获防止崩溃，协程内部捕获 panic，防止单个协程恐慌造成整个 Go 进程崩溃。
+ | 原文链接：http://wap.aadlic.asia/blog/6116146.sHtMl
+
+原标题：golang 系统设计多级缓存更新策略
+简介：golang go 程序版本号内置编译注入，编译时注入 git commit 版本号，程序运行输出版本便于排查。
+ | 原文链接：http://wap.aadlic.asia/blog/6846069.sHtMl
+
+原标题：golang 项目 makefile 脚本编写
+简介：Nginx 请求头大小上限调整，修改 Nginx 配置，调大请求头允许最大大小，避免大 Header 请求被拒绝。
+ | 原文链接：http://wap.aadlic.asia/blog/0728847.sHtMl
+
+原标题：Debug：Websocket频繁断开重连根因分析
+简介：nodejs 内存溢出问题排查修复，Node.js 程序 OOM 排查流程，定位内存泄露，调整内存限制修复崩溃。
+ | 原文链接：http://wap.aadlic.asia/blog/4605625.sHtMl
+
+原标题：零基础理解读写分离基础思想
+简介：缓存基础原理与简单代码实现，讲解缓存设计思路，编写简易缓存逻辑，减少重复计算与重复请求，提升程序响应速度。
+ | 原文链接：http://wap.aadlic.asia/blog/4080573.sHtMl
+
+原标题：golang jaeger 链路追踪 go 接入
+简介：端口占用访问失败排查方案，讲解端口占用排查命令，定位占用进程，释放端口，解决服务启动端口被占用报错。
+ | 原文链接：http://wap.aadlic.asia/blog/3925625.sHtMl
+
+原标题：golang 表单文件大小限制配置
+简介：golang 信号触发配置重载实践，收到 SIGUSR1 信号重新加载配置，线上无需重启刷新配置。
+ | 原文链接：http://wap.aadlic.asia/blog/7372357.sHtMl
+
+原标题：Practice：实现接口mock动态返回不同响应
+简介：CPU 亲和性配置负载均衡调度，配置进程 CPU 亲和，均衡利用多核 CPU，优化程序调度性能。
+ | 原文链接：http://wap.aadlic.asia/blog/0486913.sHtMl
+
+原标题：设计思考：系统容量评估架构前期估算思路
+简介：golang io.Copy 流式拷贝数据，io.Copy 拷贝 reader 到 writer，不用加载全部数据到内存。
+ | 原文链接：http://wap.aadlic.asia/blog/6498425.sHtMl
+
+原标题：开发记录：表单文件类型校验后端安全校验实践
+简介：接口限流逻辑简单模拟实现，编写简易限流逻辑，限制接口访问频次，保护服务，避免短时间大量请求压垮系统。
+ | 原文链接：http://wap.aadlic.asia/blog/6911918.sHtMl
+
+原标题：跨库查询性能优化处理
+简介：异步异常捕获避免进程崩溃，捕获异步代码内部抛出异常，防止未捕获异常直接导致整个进程退出。
+ | 原文链接：http://wap.aadlic.asia/blog/1706839.sHtMl
+
+原标题：数据库分表存储大表优化方案
+简介：golang go 自定义错误类型实现，自定义 error 结构体，携带错误码、堆栈信息，统一业务错误。
+ | 原文链接：http://wap.aadlic.asia/blog/7360069.sHtMl
+
+原标题：golang 优雅停机服务关闭实现
+简介：CLI 工具进度条交互效果开发，在命令行工具增加进度条展示，直观反馈任务执行进度，优化命令行体验。
+ | 原文链接：http://wap.aadlic.asia/blog/6940579.sHtMl
+
+原标题：Practice：实现请求大小限制中间件防护大报文
+简介：rebase 操作防止代码丢失，讲解 rebase 风险点，操作前做好备份，规避错误操作造成代码提交丢失。
+ | 原文链接：http://wap.aadlic.asia/blog/6351140.sHtMl
+
+原标题：架构笔记：缓存雪崩缓存击穿架构防护方案
+简介：golang 字符串处理常用技巧汇总，字符串拼接、分割、替换、类型转换实操，规避字符串高频错误。
+ | 原文链接：http://wap.aadlic.asia/blog/0413402.sHtMl
+
+原标题：效率笔记：GitWorkflow团队协作规范模板
+简介：golang go http 服务器优雅关闭完整代码，http.Server Shutdown，等待现有请求处理完成关闭服务。
+ | 原文链接：http://wap.aadlic.asia/blog/7042403.sHtMl
+
+原标题：坑点：gitreset误删本地代码恢复方案
+简介：golang go mod vendor 本地依赖导出，导出 vendor 目录，离线环境编译项目，无需访问外网拉依赖。
+ | 原文链接：http://wap.aadlic.asia/blog/6369461.sHtMl
+
+原标题：复盘总结：微服务改造踩坑经验总结记录
+简介：接口签名验签完整安全方案，一套完整接口签名方案，包含签名生成、请求携带、服务端验签校验。
+ | 原文链接：http://wap.aadlic.asia/blog/9618956.sHtMl
+
+原标题：接口签名验签完整安全方案
+简介：golang prometheus http 接口暴露指标，暴露 prometheus metrics 接口，输出业务运行指标，接入监控告警系统。
+ | 原文链接：http://wap.aadlic.asia/blog/9504816.sHtMl
+
+原标题：DevOps：Docker镜像安全扫描集成CI流程
+简介：golang 日志按日期切割实现方案，实现日志文件按天切割，自动归档旧日志，防止单个日志文件过大。
+ | 原文链接：http://wap.aadlic.asia/blog/7590584.sHtMl
+
+原标题：golang k8s helm chart 简单编写
+简介：golang grafana 面板 go 业务指标可视化，prometheus 指标对接 grafana，配置监控面板可视化业务状态。
+ | 原文链接：http://wap.aadlic.asia/blog/1701806.sHtMl
+
+三、实战开发｜Practice
+原标题：golang redis 缓存击穿防护实现
+简介：golang testify testify 断言库使用，testify assert require 断言，简化单元测试断言代码。
+ | 原文链接：http://wap.aadlic.asia/blog/4101371.sHtMl
+
+原标题：golang 系统设计内部服务调用超时设置要点
+简介：golang 空接口 interface {} 类型处理，interface {} 存储任意类型，类型转换，处理泛型之前通用数据。
+ | 原文链接：http://wap.aadlic.asia/blog/7471570.sHtMl
+
+原标题：实战：数据库explain执行计划分析实操演练
+简介：golang context.WithCancel 手动取消上下文，WithCancel 生成可取消 ctx，手动调用 cancel 触发取消。
+ | 原文链接：http://wap.aadlic.asia/blog/6936060.sHtMl
+
+原标题：HelloGitHubPages：部署你的第一个静态博客
+简介：站内邮件消息通知功能开发，实现站内消息、邮件通知推送，业务事件触发通知，提醒用户业务状态变更。
+ | 原文链接：http://wap.aadlic.asia/blog/9152804.sHtMl
+
+原标题：5分钟快速搭建个人技术文档站点
+简介：golang gin 路由动态注册实现方案，根据配置动态注册接口路由，无需硬编码路由，适配动态业务模块。
+ | 原文链接：http://wap.aadlic.asia/blog/4927360.sHtMl
+
+原标题：golang 系统设计第三方 sdk 二次封装技巧
+简介：golang 参数校验业务接口处理，Go 接口入参参数校验，拦截非法入参，减少业务层参数判断代码。
+ | 原文链接：http://wap.aadlic.asia/blog/0706837.sHtMl
+
+原标题：monorepo 项目多包管理最佳实践
+简介：golang defer 闭包变量捕获坑，defer 捕获循环变量引用，变量被复写，理解闭包变量捕获规则。
+ | 原文链接：http://wap.aadlic.asia/blog/8261280.sHtMl
+
+原标题：golang redis 集群 hash 槽讲解
+简介：golang go 测试文件命名规范，_test.go 测试文件，TestXxx 单元测试函数命名规范。
+ | 原文链接：http://wap.aadlic.asia/blog/9613522.sHtMl
+
+原标题：线上异常：时间时区问题，定时任务执行偏移
+简介：golang sync/atomic 原子操作使用注意，理解原子操作内存顺序，规避原子操作错误使用带来 bug。
+ | 原文链接：http://wap.aadlic.asia/blog/0600391.sHtMl
+
+原标题：Practice：实现IP黑名单拦截中间件实践
+简介：vite 插件开发自定义构建逻辑，开发自定义 vite 插件，介入构建生命周期，实现项目个性化构建逻辑。
+ | 原文链接：http://wap.aadlic.asia/blog/5181690.sHtMl
+
+原标题：golang 系统设计压测工具 wrk 使用实操
+简介：项目脚手架模板生成工具，搭建项目模板脚手架，一键生成标准化项目骨架，减少重复初始化工作。
+ | 原文链接：http://wap.aadlic.asia/blog/0602917.sHtMl
+
+原标题：golang 系统设计缓存热点 key 问题业务规避
+简介：golang go url url.Values 参数编码，url.Values 构建 url 查询参数，自动处理参数 url 编码。
+ | 原文链接：http://wap.aadlic.asia/blog/4161340.sHtMl
+
+原标题：OOMKilled 容器被杀完整排查
+简介：慢查询分析索引调优数据库实战，抓取慢查询，分析执行计划，优化索引，解决数据库慢查询拖慢业务。
+ | 原文链接：http://wap.aadlic.asia/blog/8180279.sHtMl
+
+原标题：golang 内存 pprof 定位内存泄漏
+简介：依赖安装失败全方位排错，从网络、镜像源、权限、版本多角度，定位依赖安装失败，给出对应修复手段。
+ | 原文链接：http://wap.aadlic.asia/blog/5189280.sHtMl
+
+原标题：运维笔记：磁盘inode耗尽故障排查处理
+简介：新手快速上手 Git 版本控制实操指南，讲解 Git 基础概念与常用命令，结合实操案例，帮助零基础用户掌握版本控制核心能力。
+ | 原文链接：http://wap.aadlic.asia/blog/6267358.sHtMl
+
+原标题：快速入门简单签名校验实现思路
+简介：golang 配置文件热加载监听变更，监听配置文件改动，自动重新加载配置，业务即时生效无需重启。
+ | 原文链接：http://wap.aadlic.asia/blog/7313514.sHtMl
+
+原标题：Debug：预加载逻辑错误服务启动时间成倍拉长
+简介：JWT 工具封装令牌刷新过期，封装 JWT 工具类，实现令牌生成、校验、过期刷新整套令牌管理逻辑。
+ | 原文链接：http://wap.aadlic.asia/blog/2916746.sHtMl
+
+原标题：golang 系统设计 hot‑reload 热重载 go 开发工具
+简介：系统时间同步定时任务偏移，同步服务器系统时间，防止时间偏移，避免定时任务执行时间错乱。
+ | 原文链接：http://wap.aadlic.asia/blog/1323353.sHtMl
+
+原标题：Issue：本地数据库与线上数据库排序规则差异
+简介：golang 单元测试 mock http 请求，mock HTTP 外部接口，单元测试不依赖外部网络，保证用例稳定运行。
+ | 原文链接：http://wap.aadlic.asia/blog/6900790.sHtMl
+
+原标题：OpenAPI 自动接口文档生成
+简介：Nginx 透传真实客户端 IP 配置，配置 Nginx 把真实客户端 IP 传递后端服务，后端拿到访问者真实 IP。
+ | 原文链接：http://wap.aadlic.asia/blog/6282402.sHtMl
+
+原标题：golang 系统设计全局异常处理器实现
+简介：开发生产环境资源路径统一，对齐开发环境与生产环境资源路径，防止本地正常上线后资源找不到。
+ | 原文链接：http://wap.aadlic.asia/blog/8270057.sHtMl
+
+原标题：golang 项目目录分层规范设计
+简介：golang context.Background 与 TODO 区别，Background 主流程根上下文，TODO 不确定用哪个上下文时使用。
+ | 原文链接：http://wap.aadlic.asia/blog/5857357.sHtMl
+
+原标题：golang redis 限流几种实现方案
+简介：golang go 自定义错误类型实现，自定义 error 结构体，携带错误码、堆栈信息，统一业务错误。
+ | 原文链接：http://wap.aadlic.asia/blog/8483575.sHtMl
+
+原标题：Docker 容器网络不通排查
+简介：前端虚拟列表大数据渲染优化，实现虚拟滚动列表，只渲染可视区域 DOM，上万条数据页面流畅渲染。
+ | 原文链接：http://wap.aadlic.asia/blog/4035025.sHtMl
+
+原标题：golang 系统设计指标聚合计算存储选型对比
+简介：golang net/url 路径拼接处理，url.ParseRequestURI 处理请求 url，正确拼接 url 路径避免拼接错误。
+ | 原文链接：http://wap.aadlic.asia/blog/3940181.sHtMl
+
+原标题：Debug：HTTPS握手失败TLS版本兼容问题
+简介：golang 信号捕获程序退出处理，Go 捕获操作系统信号，做资源回收，控制程序退出流程。
+ | 原文链接：http://wap.aadlic.asia/blog/9694615.sHtMl
+
+原标题：开发复盘：百万数据批量导入数据库优化方案
+简介：golang 优雅关闭 grpc 服务示例，gRPC 服务优雅关闭，等待现有请求处理完成再停止服务。
+ | 原文链接：http://wap.aadlic.asia/blog/2522625.sHtMl
+
+原标题：开源项目构建失败排查步骤
+简介：golang 信号触发配置重载实践，收到 SIGUSR1 信号重新加载配置，线上无需重启刷新配置。
+ | 原文链接：http://wap.aadlic.asia/blog/2059060.sHtMl
+
+原标题：golang 系统设计密码存储哈希加盐实现
+简介：时间同步修复令牌提前过期，服务器时间不同步导致 JWT 令牌提前过期，同步系统时间解决异常。
+ | 原文链接：http://wap.aadlic.asia/blog/8580394.sHtMl
+
+原标题：复盘总结：接口重构兼容旧版本改造复盘
+简介：golang mysql 慢查询日志程序采集解析，程序读取解析 mysql 慢查询日志，统计慢 SQL 做监控告警。
+ | 原文链接：http://wap.aadlic.asia/blog/5161402.sHtMl
+
+原标题：golang 协程泄露问题排查方法
+简介：nodejs 流处理大文件不占内存，使用 Node.js 流处理超大文件，边读边写，不需要全部加载进内存。
+ | 原文链接：http://wap.aadlic.asia/blog/0701714.sHtMl
+
+原标题：golang 系统设计定时任务调度时间校准要点
+简介：golang gin 路由分组权限管控，Gin 路由分组，不同分组绑定鉴权中间件，实现接口权限分组管控。
+ | 原文链接：http://wap.aadlic.asia/blog/9605847.sHtMl
+
+原标题：nestjs 权限守卫鉴权实现方案
+简介：golang redis lua 脚本原子操作，使用 Lua 脚本实现原子逻辑，减少网络往返，保障多命令原子执行。
+ | 原文链接：http://wap.aadlic.asia/blog/3068460.sHtMl
+
+原标题：方案对比：单体、微服务、模块化单体取舍
+简介：golang math 包常用数学函数，绝对值取整平方根三角函数，业务数学计算工具。
+ | 原文链接：http://wap.aadlic.asia/blog/9501882.sHtMl
+
+原标题：golang 系统设计排行榜几种实现
+简介：数据库分表存储大表优化方案，对超大数据表做分表，拆分数据，降低单表数据量提升查询性能。
+ | 原文链接：http://wap.aadlic.asia/blog/5158073.sHtMl
+
+原标题：Debug：DNS缓存TTL设置不当服务切换无法生效
+简介：缓存过期策略优化防业务故障，合理设置缓存过期策略，规避集中过期，减少缓存失效带来业务抖动。
+ | 原文链接：http://wap.aadlic.asia/blog/9816948.sHtMl
+
+原标题：Practice：实现数据库连接池简易模拟实现
+简介：SourceMap 生成线上报错定位，项目打包生成 SourceMap 文件，线上报错可以还原源码，快速定位报错位置。
+ | 原文链接：http://wap.aadlic.asia/blog/4867357.sHtMl
+
+原标题：Troubleshooting：数据库索引失效，查询性能暴跌
+简介：SSH 密钥配置 GitHub 免密登录，分步生成配置 SSH 密钥，实现 GitHub 免密推送拉取，免去重复输入账号密码的麻烦。
+ | 原文链接：http://wap.aadlic.asia/blog/7150390.sHtMl
+
+原标题：Troubleshooting：K8sPodOOMKilled完整排查流程
+简介：golang mysql 慢查询日志程序采集解析，程序读取解析 mysql 慢查询日志，统计慢 SQL 做监控告警。
+ | 原文链接：http://wap.aadlic.asia/blog/3926846.sHtMl
+
+原标题：Security：文件上传漏洞攻击面完整防护方案
+简介：包管理器依赖缓存清理，清理本地依赖缓存，解决缓存旧包引发问题，拉取最新版本依赖包。
+ | 原文链接：http://wap.aadlic.asia/blog/7412635.sHtMl
+
+四、架构设计｜Architecture
+原标题：Docker Compose 一键搭建本地栈
+简介：golang rsa 签名验签 pem 证书加载，加载 pem 格式密钥证书，rsa 签名与验签完整业务实现。
+ | 原文链接：http://wap.aadlic.asia/blog/1713917.sHtMl
+
+原标题：Spring 事务传播机制配置生效
+简介：golang mongodb 索引优化慢查询处理，mongodb 创建索引，分析慢查询，优化聚合查询执行性能。
+ | 原文链接：http://wap.aadlic.asia/blog/5068463.sHtMl
+
+原标题：golang es 分词器选型业务适配
+简介：Shell 脚本自动化命令编写，讲解 Shell 基础语法，编写自动化脚本，完成批量执行、文件处理，解放重复手工操作。
+ | 原文链接：http://wap.aadlic.asia/blog/9690583.sHtMl
+
+原标题：设计思考：分布式ID系统架构选型对比
+简介：异步编程 Promise 执行流程解析，拆解异步执行顺序，理解回调与 Promise 差异，理清异步场景下代码执行逻辑。
+ | 原文链接：http://wap.aadlic.asia/blog/4838903.sHtMl
+
+原标题：golang 工具函数库封装思路
+简介：空指针异常判空容错处理，讲解空指针产生场景，规范判空逻辑，增加容错，避免空指针直接造成程序崩溃。
+ | 原文链接：http://wap.aadlic.asia/blog/0715796.sHtMl
+
+原标题：Debug：异步任务堆积，服务响应越来越慢
+简介：golang netlink 系统信息获取，netlink 获取系统网络信息，网卡地址，内核网络状态读取。
+ | 原文链接：http://wap.aadlic.asia/blog/4735069.sHtMl
+
+原标题：golang 系统设计本地缓存 redis 缓存多级组合
+简介：golang sync.Pool 对象池复用对象，sync.Pool 复用临时对象，减少内存分配，降低 GC 频率提升性能。
+ | 原文链接：http://wap.aadlic.asia/blog/4241115.sHtMl
+
+原标题：golang 系统设计集成测试数据库回滚重置方案
+简介：golang go mod graph 查看依赖关系，go mod graph 打印依赖树，定位间接依赖来源，解决版本冲突。
+ | 原文链接：http://wap.aadlic.asia/blog/7683770.sHtMl
+
+原标题：golang 系统设计服务优雅停机完整流程
+简介：golang grpc protobuf 开发实操，Go gRPC 开发，编写 Protobuf 定义，服务端客户端完整示例。
+ | 原文链接：http://wap.aadlic.asia/blog/0713903.sHtMl
+
+原标题：golang 系统设计 git 钩子自动化校验实现
+简介：任务执行锁防止并发重复调度，增加任务执行锁，多实例环境，防止同一个定时任务并发多次运行。
+ | 原文链接：http://wap.aadlic.asia/blog/1816962.sHtMl
+
+原标题：依赖版本冲突兼容修复方案
+简介：golang grpc 客户端流上传数据，客户端流式请求，客户端分批上传数据到服务端，适合大文件传输。
+ | 原文链接：http://wap.aadlic.asia/blog/7968025.sHtMl
+
+原标题：golang 系统设计告警渠道钉钉邮件企业微信集成
+简介：golang go 服务日志输出 journald，systemd journald 接收程序 stdout 日志，统一管理服务日志。
+ | 原文链接：http://wap.aadlic.asia/blog/8596848.sHtMl
+
+原标题：golang 系统设计分表扩容数据平滑迁移思路
+简介：预编译 SQL 防注入实现，使用预编译 SQL 方式，杜绝 SQL 注入风险，提升数据库访问层安全能力。
+ | 原文链接：http://wap.aadlic.asia/blog/8584685.sHtMl
+
+原标题：golang 系统设计序列化性能选型对比
+简介：请求重试组件退避策略实现，封装重试组件，实现指数退避策略，避免大量请求同时重试压垮下游。
+ | 原文链接：http://wap.aadlic.asia/blog/3050381.sHtMl
+
+原标题：golang 项目目录分层规范设计
+简介：golang 定时任务 cron 使用指南，Go 使用 Cron 库实现定时任务，配置 corn 表达式调度业务任务。
+ | 原文链接：http://wap.aadlic.asia/blog/4858469.sHtMl
+
+原标题：消息队列生产消费模型入门
+简介：分布式 ID 全局唯一生成方案，讲解分布式 ID 生成思路，实现全局唯一 ID，满足分布式系统主键生成需求。
+ | 原文链接：http://wap.aadlic.asia/blog/6901900.sHtMl
+
+原标题：实践：数据库备份脚本自动化编写实践
+简介：golang base64 编码解码实操，Go Base64 编码解码示例，处理业务场景 Base64 格式数据转换。
+ | 原文链接：http://wap.aadlic.asia/blog/9303515.sHtMl
+
+原标题：golang 系统设计依赖版本升级风险评估
+简介：CDN 缓存刷新获取最新静态资源，调用 CDN 刷新接口，清除节点旧缓存，用户访问到更新后的静态文件。
+ | 原文链接：http://wap.aadlic.asia/blog/6034160.sHtMl
+
+?
