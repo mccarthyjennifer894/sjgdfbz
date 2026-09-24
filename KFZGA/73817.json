@@ -1,0 +1,560 @@
+最新前沿技术资讯
+
+一、入门教程｜Getting Started
+原标题：golang mysql 死锁排查步骤讲解
+简介：golang go race 竞态检测工具，‑race 检测数据竞争，编译运行检测并发读写数据竞争 bug。
+ | 原文链接：m.zptrnf.asia/Article/details/4150385.sHtML
+
+原标题：Nginx 缓冲区调优大文件上传
+简介：golang 优雅处理 http 超时设置，Go HTTP 请求设置各类超时，防止请求无限阻塞，保护协程与连接。
+ | 原文链接：m.zptrnf.asia/Article/details/4167171.sHtML
+
+原标题：golang 系统设计 api 网关核心能力完整梳理
+简介：多环境配置中心灵活切换方案，简易配置中心实现，支持多套环境配置，动态下发无需重启服务。
+ | 原文链接：m.zptrnf.asia/Article/details/2937038.sHtML
+
+原标题：golang defer panic 异常处理
+简介：服务健康检查告警监控体系，搭建健康检查加告警体系，服务异常及时推送告警通知运维人员。
+ | 原文链接：m.zptrnf.asia/Article/details/3057950.sHtML
+
+原标题：Performance：数据库join优化，大表join规避
+简介：golang 换行符统一处理，文本文件读写统一换行符，规避不同系统换行符带来解析异常。
+ | 原文链接：m.zptrnf.asia/Article/details/5927960.sHtML
+
+原标题：架构笔记：分库分表中间件选型业务约束
+简介：golang http body 必须关闭的重要性，无论成功失败必须关闭 request.Body，否则连接无法复用泄漏。
+ | 原文链接：m.zptrnf.asia/Article/details/7594581.sHtML
+
+原标题：开发记录：长连接连接管理自动清理僵死连接
+简介：golang tcp_NODELAY 关闭延迟发送，设置 tcp_NODELAY，关闭 Nagle 算法，降低小包请求延迟。
+ | 原文链接：m.zptrnf.asia/Article/details/4041394.sHtML
+
+原标题：golang 系统设计 protobuf 枚举类型规范写法
+简介：GitHub Markdown 文档语法汇总，整理 Markdown 常用语法，编写仓库 README、文档，提升开源项目文档排版质量。
+ | 原文链接：m.zptrnf.asia/Article/details/3050393.sHtML
+
+原标题：设计思考：消息队列重复消费架构层防御手段
+简介：golang redis geo 地理位置存储查询，Redis GEO 存储经纬度，查询附近点位，实现附近人业务功能。
+ | 原文链接：m.zptrnf.asia/Article/details/4161596.sHtML
+
+原标题：golang 系统设计内部服务熔断降级配置思路
+简介：golang go mod graph 可视化依赖图，可视化 go 依赖关系，直观看到包之间依赖，定位冲突。
+ | 原文链接：m.zptrnf.asia/Article/details/8202715.sHtML
+
+原标题：性能复盘：锁粒度太大，拆分细粒度锁优化
+简介：预编译 SQL 防注入实现，使用预编译 SQL 方式，杜绝 SQL 注入风险，提升数据库访问层安全能力。
+ | 原文链接：m.zptrnf.asia/Article/details/2646951.sHtML
+
+原标题：性能笔记：DNS缓存优化减少域名解析开销
+简介：时间同步修复令牌提前过期，服务器时间不同步导致 JWT 令牌提前过期，同步系统时间解决异常。
+ | 原文链接：m.zptrnf.asia/Article/details/4159215.sHtML
+
+原标题：包管理器依赖冲突解决方案
+简介：golang 微服务网关简易实现，http 反向代理、路由匹配、鉴权限流，理解网关核心原理。
+ | 原文链接：m.zptrnf.asia/Article/details/4172485.sHtML
+
+原标题：Security：Docker镜像安全扫描漏洞修复
+简介：本地简易配置中心动态管理，搭建轻量本地配置中心，业务动态读取配置，修改配置不重启服务。
+ | 原文链接：m.zptrnf.asia/Article/details/9592415.sHtML
+
+原标题：Architecture：对象存储接入业务整体架构
+简介：数值类型溢出错乱问题修复，选择合适数值存储类型，处理数值溢出，避免数据存储错乱结果异常。
+ | 原文链接：m.zptrnf.asia/Article/details/9616060.sHtML
+
+原标题：golang 大文件 http 下载服务
+简介：前端静态缓存更新生效处理，修改静态资源版本标识，处理浏览器强缓存，让更新资源生效。
+ | 原文链接：m.zptrnf.asia/Article/details/1827093.sHtML
+
+原标题：Security：服务器最小权限账号运维实践
+简介：golang jwt 鉴权中间件完整示例，Gin JWT 鉴权中间件，令牌校验，解析用户信息，接口鉴权拦截。
+ | 原文链接：m.zptrnf.asia/Article/details/7413038.sHtML
+
+原标题：golang redis 地理位置 geo 使用
+简介：golang sync/atomic 原子操作使用注意，理解原子操作内存顺序，规避原子操作错误使用带来 bug。
+ | 原文链接：m.zptrnf.asia/Article/details/0727068.sHtML
+
+原标题：AI‑Dev：利用AI快速阅读陌生开源项目源码
+简介：golang go 接口定义原则小接口，go 小接口设计原则，接口尽量小，只定义必要方法，提升代码灵活性。
+ | 原文链接：m.zptrnf.asia/Article/details/7485746.sHtML
+
+原标题：golang gorm 批量插入性能调优
+简介：golang race 检测器性能开销，race 检测器有性能损耗，只用于测试环境，禁止生产开启 race。
+ | 原文链接：m.zptrnf.asia/Article/details/4046917.sHtML
+
+原标题：golang 系统设计 api 网关核心能力完整梳理
+简介：缓存穿透击穿雪崩全套防护，完整梳理缓存三大问题，落地全套防护策略，保障缓存层稳定运行。
+ | 原文链接：m.zptrnf.asia/Article/details/1824935.sHtML
+
+原标题：OpenSource：开源项目贡献者协作流程规范
+简介：golang redis zset 实现延时任务队列，zset 存储任务到期时间，轮询到期任务执行，简易延迟队列。
+ | 原文链接：m.zptrnf.asia/Article/details/6372692.sHtML
+
+原标题：包管理器依赖冲突解决方案
+简介：前端虚拟列表大数据渲染优化，实现虚拟滚动列表，只渲染可视区域 DOM，上万条数据页面流畅渲染。
+ | 原文链接：m.zptrnf.asia/Article/details/3049259.sHtML
+
+原标题：新手指南：本地多版本环境共存配置
+简介：数据库索引重建提升查询速度，针对碎片化索引，重建数据库索引，恢复 SQL 查询执行性能。
+ | 原文链接：m.zptrnf.asia/Article/details/9336737.sHtML
+
+原标题：开发记录：分布式ID生成器实现与压力测试
+简介：golang k8s 客户端 client‑go 简单示例，client‑go 操作 k8s 资源，增删改查 pod deployment 等资源对象。
+ | 原文链接：m.zptrnf.asia/Article/details/3040470.sHtML
+
+原标题：OpenSource：开源项目贡献者协作流程规范
+简介：Git 子模块更新代码不全修复，正确更新 Git 子模块，拉取子模块完整代码，解决子模块目录为空问题。
+ | 原文链接：m.zptrnf.asia/Article/details/3047357.sHtML
+
+原标题：Practice：实现简单信号处理优雅停机实践
+简介：golang go mod vendor 本地依赖导出，导出 vendor 目录，离线环境编译项目，无需访问外网拉依赖。
+ | 原文链接：m.zptrnf.asia/Article/details/5258399.sHtML
+
+原标题：入门实践：简单图片上传预览本地demo
+简介：Git 分支管理多人协作实战教程，详解分支创建、合并、冲突处理，适配团队开发场景，规范多人协同代码工作流。
+ | 原文链接：m.zptrnf.asia/Article/details/0858362.sHtML
+
+原标题：Hands‑on：简易跨进程通信demo开发实践
+简介：GC 垃圾回收优化降低 CPU 占用，调整 GC 参数，优化对象创建销毁，降低垃圾回收带来 CPU 开销。
+ | 原文链接：m.zptrnf.asia/Article/details/8279144.sHtML
+
+原标题：Troubleshoot：跨域偶现失败难以复现问题
+简介：golang 优雅处理 http 重定向逻辑，自定义控制 http 重定向跳转次数，防止无限重定向死循环。
+ | 原文链接：m.zptrnf.asia/Article/details/6169146.sHtML
+
+原标题：golang mysql innodb 事务隔离级别
+简介：golang influxdb 时序数据库读写操作，influxdb 存储时序指标，业务指标监控数据存取。
+ | 原文链接：m.zptrnf.asia/Article/details/8536948.sHtML
+
+原标题：架构复盘：服务灰度发布架构设计与流量切分
+简介：文件句柄耗尽资源泄露处理，定位文件句柄泄露，修复文件忘记关闭问题，解决句柄耗尽服务报错。
+ | 原文链接：m.zptrnf.asia/Article/details/1828179.sHtML
+
+原标题：实战：容器内执行调试排错完整实操流程
+简介：golang influxdb 时序数据库读写操作，influxdb 存储时序指标，业务指标监控数据存取。
+ | 原文链接：m.zptrnf.asia/Article/details/7268473.sHtML
+
+原标题：记一次限流组件误配置把正常用户拦截
+简介：service‑worker 离线缓存实践，使用 ServiceWorker 实现静态资源离线缓存，弱网环境页面依然可访问。
+ | 原文链接：m.zptrnf.asia/Article/details/7484625.sHtML
+
+原标题：git cherry‑pick 规范操作防 bug
+简介：nestjs 拦截器过滤器管道实战，实操 Nest 拦截器、异常过滤器、管道校验，处理请求与响应统一逻辑。
+ | 原文链接：m.zptrnf.asia/Article/details/6373402.sHtML
+
+原标题：轻量 API 后端接口服务快速开发
+简介：golang go 项目依赖冲突解决完整思路，定位冲突包，replace、exclude、升级降级解决版本冲突。
+ | 原文链接：m.zptrnf.asia/Article/details/9596917.sHtML
+
+原标题：Practice：实现请求ID透传全链路日志实践
+简介：golang panic 崩溃日志完整收集，捕获所有 panic，打印堆栈，记录日志，方便定位崩溃根源。
+ | 原文链接：m.zptrnf.asia/Article/details/0935069.sHtML
+
+原标题：开发环境变量配置全平台教程
+简介：golang 日志级别动态调整热更新，不用重启程序动态修改日志输出级别，线上调试排查问题十分方便。
+ | 原文链接：m.zptrnf.asia/Article/details/6292391.sHtML
+
+原标题：实践：大文件分片上传后端完整实现思路
+简介：服务健康检查告警监控体系，搭建健康检查加告警体系，服务异常及时推送告警通知运维人员。
+ | 原文链接：m.zptrnf.asia/Article/details/3026579.sHtML
+
+原标题：前端工程化 webpack 打包优化
+简介：nestjs 框架模块化项目搭建，从零搭建 NestJS 项目，模块化拆分业务，搭建规范后端项目骨架。
+ | 原文链接：m.zptrnf.asia/Article/details/8260147.sHtML
+
+
+二、踩坑排错｜Troubleshooting
+原标题：实战：WebSocket断线重连完整业务处理实践
+简介：接口幂等性防重复请求实现，实现接口幂等逻辑，避免重复提交请求产生多条脏数据，保障业务数据安全。
+ | 原文链接：m.zptrnf.asia/Article/details/3714691.sHtML
+
+原标题：架构思考：单体应用向微服务拆分演进路径
+简介：golang 云存储 s3 协议对象存储，go s3 客户端，兼容 minio 阿里云 oss，实现文件上传下载签名访问。
+ | 原文链接：m.zptrnf.asia/Article/details/7470586.sHtML
+
+原标题：golang 系统设计容器健康检查设计思路
+简介：golang context.WithCancel 手动取消上下文，WithCancel 生成可取消 ctx，手动调用 cancel 触发取消。
+ | 原文链接：m.zptrnf.asia/Article/details/7484514.sHtML
+
+原标题：golang 系统设计用户签到统计方案
+简介：golang go list 双向链表使用，container/list 双向链表，频繁增删节点业务场景使用。
+ | 原文链接：m.zptrnf.asia/Article/details/2947381.sHtML
+
+原标题：运维笔记：服务器Swap分区调优生产实践
+简介：golang 协程泄露问题排查方法，识别 Go 协程泄露现象，分析泄露场景，给出排查定位协程泄露手段。
+ | 原文链接：m.zptrnf.asia/Article/details/4051173.sHtML
+
+原标题：golang docker 部署 mongodb 开发环境
+简介：golang 分库分表 id 路由规则设计，分库分表 id 路由算法，id 映射库表，数据均匀打散避免热点分片。
+ | 原文链接：m.zptrnf.asia/Article/details/0969473.sHtML
+
+原标题：git stash 代码暂存切换分支
+简介：golang 信号量控制并发数量，使用信号量控制并发，限制同时执行任务数量，保护下游资源。
+ | 原文链接：m.zptrnf.asia/Article/details/0715031.sHtML
+
+原标题：踩坑记录：浮点数作为Rediskey匹配异常
+简介：golang CPU 绑定亲和性设置 go 程序，设置进程 CPU 亲和绑定核心，减少 CPU 调度开销，提升计算性能。
+ | 原文链接：m.zptrnf.asia/Article/details/0722403.sHtML
+
+原标题：快速入门gRPC基础概念与简单示例
+简介：golang 分表跨表 join 查询处理方案，分表后跨分片关联查询解决方案，业务层聚合代替数据库 join。
+ | 原文链接：m.zptrnf.asia/Article/details/5273572.sHtML
+
+原标题：golang 系统设计 debug 远程调试 go 程序实操
+简介：Docker Compose 一键搭建本地栈，使用 Compose 编排多个容器，一键拉起全套开发依赖服务。
+ | 原文链接：m.zptrnf.asia/Article/details/1874036.sHtML
+
+原标题：golang kafka 消息顺序性保证方案
+简介：golang nats 轻量消息队列 go 开发，nats 高性能轻量消息系统，发布订阅模式异步解耦业务。
+ | 原文链接：m.zptrnf.asia/Article/details/6370536.sHtML
+
+原标题：golang grpc protobuf 开发实操
+简介：golang csv 读写批量数据处理，Go 读写 CSV 文件，批量导入导出业务数据，处理 CSV 格式解析。
+ | 原文链接：m.zptrnf.asia/Article/details/5262402.sHtML
+
+原标题：Troubleshooting：k8s镜像拉取失败镜像仓库网络问题
+简介：golang go url url.Values 参数编码，url.Values 构建 url 查询参数，自动处理参数 url 编码。
+ | 原文链接：m.zptrnf.asia/Article/details/4739170.sHtML
+
+原标题：无用对象回收抑制内存上涨
+简介：磁盘占满服务不可用清理方案，定位磁盘占用大文件，清理日志、缓存文件，恢复磁盘可用空间。
+ | 原文链接：m.zptrnf.asia/Article/details/1825030.sHtML
+
+原标题：golang 系统设计熔断降级架构讲解
+简介：golang go toml 配置注释保留，toml 解析保留注释，修改配置后写回保留原有注释。
+ | 原文链接：m.zptrnf.asia/Article/details/5260584.sHtML
+
+原标题：实践：灰度流量切分简易实现方案
+简介：golang goroutine 协程基础实操，Goroutine 基础实操案例，启动协程执行任务，理解轻量级协程特性。
+ | 原文链接：m.zptrnf.asia/Article/details/7384839.sHtML
+
+原标题：golang 系统设计 hot‑reload 热重载 go 开发工具
+简介：golang 多协程任务池并发控制，实现协程任务池，控制并发协程数量，防止无限制创建 goroutine。
+ | 原文链接：m.zptrnf.asia/Article/details/8501735.sHtML
+
+原标题：golang grpc protobuf 开发实操
+简介：golang mongodb go 驱动实操教程，mongo‑go‑driver 操作 mongodb，文档增删改查聚合查询。
+ | 原文链接：m.zptrnf.asia/Article/details/3050391.sHtML
+
+原标题：golang 系统设计定时任务分布式锁
+简介：react hooks 常见陷阱避坑指南，梳理 React Hooks 高频踩坑点，依赖数组、闭包陷阱，写出稳定组件。
+ | 原文链接：m.zptrnf.asia/Article/details/2901470.sHtML
+
+原标题：golang 日志与链路 ID 关联打印
+简介：golang go 接口定义原则小接口，go 小接口设计原则，接口尽量小，只定义必要方法，提升代码灵活性。
+ | 原文链接：m.zptrnf.asia/Article/details/3912492.sHtML
+
+原标题：零基础理解读写分离基础思想
+简介：限流规则误拦截正常请求修复，修正限流规则阈值，避免合法用户被限流拦截，兼顾防护与可用性。
+ | 原文链接：m.zptrnf.asia/Article/details/8193936.sHtML
+
+原标题：Issue：系统fd快速上涨进程慢慢卡死
+简介：golang nats 轻量消息队列 go 开发，nats 高性能轻量消息系统，发布订阅模式异步解耦业务。
+ | 原文链接：m.zptrnf.asia/Article/details/7406847.sHtML
+
+原标题：golang context 上下文传参讲解
+简介：golang 故障演练服务模拟超时报错，程序模拟接口超时、报错，做混沌测试验证熔断降级有效性。
+ | 原文链接：m.zptrnf.asia/Article/details/3747950.sHtML
+
+原标题：前端国际化多语言方案落地
+简介：golang gin 参数绑定 query form json，掌握 Gin 多种参数绑定方式，适配不同请求格式参数读取。
+ | 原文链接：m.zptrnf.asia/Article/details/8491469.sHtML
+
+原标题：Hands‑on：简易配置中心本地原型实现
+简介：golang 大内存分配 GC 抖动规避，避免瞬时大量对象创建，分批处理，防止 GC 抖动业务抖动。
+ | 原文链接：m.zptrnf.asia/Article/details/8484624.sHtML
+
+原标题：端口占用访问失败排查方案
+简介：nodejs 脚手架工具开发完整教程，从零开发 Node 命令行脚手架，实现项目模板生成，理解 CLI 开发。
+ | 原文链接：m.zptrnf.asia/Article/details/6275625.sHtML
+
+原标题：安全复盘：CSRF跨站请求伪造防护配置
+简介：golang go 爬虫代理池轮换使用，http 代理池轮换，请求自动切换代理 IP，突破访问限制。
+ | 原文链接：m.zptrnf.asia/Article/details/2927810.sHtML
+
+原标题：Hands‑on：本地模拟消息重复消费处理实践
+简介：TLS 版本兼容 HTTPS 握手失败，兼容老旧 TLS 协议版本，修复部分客户端 HTTPS 握手失败无法访问。
+ | 原文链接：m.zptrnf.asia/Article/details/3036028.sHtML
+
+原标题：开发记录：日志脱敏防止敏感信息输出实践
+简介：golang go 初始化顺序包变量 init 函数，包级变量初始化，init 执行顺序，理解包加载执行流程。
+ | 原文链接：m.zptrnf.asia/Article/details/2567465.sHtML
+
+原标题：golang 系统设计事务消息 rocketmq 简单原理
+简介：golang 限流器熔断降级组合使用，限流熔断降级组合架构，流量防护完整方案，保障服务稳定性。
+ | 原文链接：m.zptrnf.asia/Article/details/9333323.sHtML
+
+原标题：服务健康检查告警监控体系
+简介：golang go‑pg postgres 客户端实操，go‑pg 操作 PostgreSQL 数据库，CRUD 关联查询业务开发。
+ | 原文链接：m.zptrnf.asia/Article/details/8211235.sHtML
+
+原标题：开发环境变量配置全平台教程
+简介：对象存储上传下载权限实操，演示对象存储文件上传、下载、访问权限设置，适配业务文件存储场景。
+ | 原文链接：m.zptrnf.asia/Article/details/9355650.sHtML
+
+原标题：golang redis 持久化 RDB AOF 对比
+简介：golang grpc metadata 元数据透传，metadata 传递 traceId、鉴权信息，全链路透传上下文信息。
+ | 原文链接：m.zptrnf.asia/Article/details/7124246.sHtML
+
+原标题：golang 系统设计网关 ssl 证书配置更新实操
+简介：nodejs 脚手架工具开发完整教程，从零开发 Node 命令行脚手架，实现项目模板生成，理解 CLI 开发。
+ | 原文链接：m.zptrnf.asia/Article/details/2025722.sHtML
+
+原标题：golang prometheus counter gauge 使用
+简介：golang 限制 multipart 内存大小，设置 MaxMemory，大文件写入磁盘临时文件防止内存暴涨。
+ | 原文链接：m.zptrnf.asia/Article/details/4008979.sHtML
+
+原标题：golang 系统设计分布式锁超时业务防死锁处理
+简介：golang socket 文件描述符继承重启，父进程传递 listener fd 给子进程，实现 go 程序零停机热重启。
+ | 原文链接：m.zptrnf.asia/Article/details/5903243.sHtML
+
+原标题：golang mysql 索引失效常见场景
+简介：golang 错误静默忽略风险规避，禁止空忽略错误，必须处理或者明确注释为什么忽略错误。
+ | 原文链接：m.zptrnf.asia/Article/details/5925702.sHtML
+
+原标题：入门实践：简单图片上传预览本地demo
+简介：文件批量导入导出功能实现，开发批量导入导出接口，处理大量文件数据，完成业务数据批量迁移与导出。
+ | 原文链接：m.zptrnf.asia/Article/details/6935701.sHtML
+
+原标题：开发复盘：搭建文件上传服务支持分片断点续传
+简介：golang context.Background 与 TODO 区别，Background 主流程根上下文，TODO 不确定用哪个上下文时使用。
+ | 原文链接：m.zptrnf.asia/Article/details/8292705.sHtML
+
+原标题：golang 系统设计状态字段枚举约束设计思路
+简介：golang 配置中心 apollo go 客户端，apollo go sdk 读取配置，配置变更自动热更新无需重启服务。
+ | 原文链接：m.zptrnf.asia/Article/details/7482715.sHtML
+
+三、实战开发｜Practice
+原标题：golang 系统设计 rest http 方法使用原则
+简介：golang grpc keepalive 保活配置，grpc keepalive 参数调优，检测断开僵死连接，释放无效连接资源。
+ | 原文链接：m.zptrnf.asia/Article/details/8070561.sHtML
+
+原标题：快速上手简易网关转发逻辑模拟
+简介：golang 命令行参数解析开发，解析命令行入参，开发自定义 CLI 程序，读取启动参数配置服务。
+ | 原文链接：m.zptrnf.asia/Article/details/3636141.sHtML
+
+原标题：接口签名校验防篡改实现
+简介：跨域偶现失败配置修复，解决跨域问题时而复现时而正常，定位配置漏配、请求头异常等隐性问题。
+ | 原文链接：m.zptrnf.asia/Article/details/0303927.sHtML
+
+原标题：golang 系统设计 p0 故障复盘方法论讲解
+简介：golang go math 大数高精度计算，math/big 处理超大整数、高精度浮点数，金额大数运算。
+ | 原文链接：m.zptrnf.asia/Article/details/8580585.sHtML
+
+原标题：部署实践：服务器防火墙安全组配置实践
+简介：golang httptest 模拟外部 http 服务，httptest.NewServer 模拟第三方 http 服务，单元测试 mock 外部接口。
+ | 原文链接：m.zptrnf.asia/Article/details/0716959.sHtML
+
+原标题：Hands‑on：实现服务健康检查与自动报警demo
+简介：golang context 超时取消实战案例，使用 context 控制协程、http 请求超时，自动终止超时任务，避免协程无限阻塞。
+ | 原文链接：m.zptrnf.asia/Article/details/4124704.sHtML
+
+原标题：golang redis 发布订阅简单示例
+简介：golang go 模板执行错误捕获，捕获模板执行错误，防止模板错误直接返回空白页面。
+ | 原文链接：m.zptrnf.asia/Article/details/9891366.sHtML
+
+原标题：Troubleshoot：批量导入数据，事务过大回滚日志暴涨
+简介：golang 配置热更新不重启服务，实现配置热加载，监听配置变更，更新内存配置，无需重启服务实例。
+ | 原文链接：m.zptrnf.asia/Article/details/5235695.sHtML
+
+原标题：Hands‑on：简易请求转发代理中间件实现
+简介：golang go 代码覆盖率线上统计，单元测试覆盖率统计，找出未测试代码分支，提升测试质量。
+ | 原文链接：m.zptrnf.asia/Article/details/2938061.sHtML
+
+原标题：快速启动：本地运行开源项目排障清单
+简介：nodejs 集成测试业务流程编写，编写 Node 集成测试，调用真实接口，验证完整业务链路执行结果。
+ | 原文链接：m.zptrnf.asia/Article/details/9691705.sHtML
+
+原标题：Hands‑on：简易配置中心本地原型实现
+简介：Nginx 丢失请求头配置修正，修复 Nginx 代理转发丢失请求头配置，保证上游服务拿到完整请求头信息。
+ | 原文链接：m.zptrnf.asia/Article/details/0727060.sHtML
+
+原标题：golang 数据库慢查询监控实现
+简介：golang net/http/httptest 服务端模拟，httptest.NewRecorder 记录 handler 响应，校验返回状态码 body。
+ | 原文链接：m.zptrnf.asia/Article/details/8484038.sHtML
+
+原标题：前端工程化 webpack 打包优化
+简介：golang mongodb 索引优化慢查询处理，mongodb 创建索引，分析慢查询，优化聚合查询执行性能。
+ | 原文链接：m.zptrnf.asia/Article/details/6246925.sHtML
+
+原标题：设计实践：如何设计可扩展业务数据库表结构
+简介：提交第一个开源 PR 完整流程，Fork 项目、修改代码、提交 Pull Request，讲解 PR 规范，提升合并通过率。
+ | 原文链接：m.zptrnf.asia/Article/details/7112225.sHtML
+
+原标题：golang validator 自定义校验规则
+简介：golang channel 作为函数参数方向，声明 channel 入参方向，只读 channel 只写 channel 提升代码约束。
+ | 原文链接：m.zptrnf.asia/Article/details/9234467.sHtML
+
+原标题：踩坑：重试逻辑未做幂等，重复生成业务数据
+简介：请求工具封装统一异常处理，对网络请求做二次封装，统一捕获各类请求异常，标准化接口返回格式。
+ | 原文链接：m.zptrnf.asia/Article/details/8367857.sHtML
+
+原标题：网关超时时间调优后端等待
+简介：golang 限流熔断放在代理层实践，代理层统一限流熔断，对后端服务做流量保护。
+ | 原文链接：m.zptrnf.asia/Article/details/0738181.sHtML
+
+原标题：实践：代码提交前自动格式化校验配置实践
+简介：项目目录结构规范化最佳实践，梳理源码、配置、静态资源目录划分，规范项目布局，提升代码可读性和可维护性。
+ | 原文链接：m.zptrnf.asia/Article/details/7483793.sHtML
+
+原标题：golang redis lua 脚本开发调试
+简介：并发数据覆盖加锁安全处理，多线程并发修改同一数据，增加锁机制，防止并发覆盖丢失更新数据。
+ | 原文链接：m.zptrnf.asia/Article/details/5279403.sHtML
+
+原标题：实战：数据库索引设计，复合索引最佳实践
+简介：golang go 泛型实现通用数据结构，泛型实现通用栈队列，复用逻辑支持多种数据类型。
+ | 原文链接：m.zptrnf.asia/Article/details/0718218.sHtML
+
+原标题：golang 系统设计开源项目依赖版本升级维护
+简介：包管理器依赖缓存清理，清理本地依赖缓存，解决缓存旧包引发问题，拉取最新版本依赖包。
+ | 原文链接：m.zptrnf.asia/Article/details/6361659.sHtML
+
+原标题：文件锁正确使用避免死锁
+简介：主干开发团队代码合并策略，讲解主干开发模式，团队代码合并流程，适合高频迭代的团队协作模式。
+ | 原文链接：m.zptrnf.asia/Article/details/8506808.sHtML
+
+原标题：golang k8s liveness readiness 探针
+简介：跨域偶现失败配置修复，解决跨域问题时而复现时而正常，定位配置漏配、请求头异常等隐性问题。
+ | 原文链接：m.zptrnf.asia/Article/details/0473527.sHtML
+
+原标题：golang 系统设计缓存基准测试对比方案
+简介：golang context 超时取消实战案例，使用 context 控制协程、http 请求超时，自动终止超时任务，避免协程无限阻塞。
+ | 原文链接：m.zptrnf.asia/Article/details/5264926.sHtML
+
+原标题：排错：DockerCompose依赖顺序启动顺序坑
+简介：golang 项目 makefile 脚本编写，编写 Makefile 脚本，封装编译、测试、构建命令，简化项目操作。
+ | 原文链接：m.zptrnf.asia/Article/details/7490502.sHtML
+
+原标题：缓存穿透防护保护数据库
+简介：接口限流逻辑简单模拟实现，编写简易限流逻辑，限制接口访问频次，保护服务，避免短时间大量请求压垮系统。
+ | 原文链接：m.zptrnf.asia/Article/details/8616148.sHtML
+
+原标题：nodejs 中间件模式原理剖析
+简介：golang go 多版本管理 gvm 使用，gvm 管理多个 go sdk 版本，快速切换不同 go 版本做项目开发。
+ | 原文链接：m.zptrnf.asia/Article/details/9583704.sHtML
+
+原标题：golang 系统设计配置敏感信息加密存储方案
+简介：golang go select 多路等待 channel，select 等待多个 channel，default 非阻塞，超时等待 channel。
+ | 原文链接：m.zptrnf.asia/Article/details/0724036.sHtML
+
+原标题：后端登录鉴权模块完整开发
+简介：golang go 逃逸分析实操查看，go build‑gcflags=-m 查看逃逸分析，减少堆分配优化程序性能。
+ | 原文链接：m.zptrnf.asia/Article/details/0940293.sHtML
+
+原标题：golang csv 读写批量数据处理
+简介：超大数据集分页性能优化方案，对比不同分页方案，针对海量数据集做分页性能优化，解决越翻越慢。
+ | 原文链接：m.zptrnf.asia/Article/details/9695848.sHtML
+
+原标题：golang 系统设计消息堆积排查扩容完整步骤
+简介：golang 大文件读取内存优化，Go 流式读取大文件，分块处理，避免大文件一次性加载全部到内存。
+ | 原文链接：m.zptrnf.asia/Article/details/5272537.sHtML
+
+原标题：golang 系统设计开源项目协作流程梳理
+简介：Nginx 透传真实客户端 IP 配置，配置 Nginx 把真实客户端 IP 传递后端服务，后端拿到访问者真实 IP。
+ | 原文链接：m.zptrnf.asia/Article/details/7592625.sHtML
+
+原标题：golang redis 发布订阅简单示例
+简介：golang go http 服务器优雅关闭完整代码，http.Server Shutdown，等待现有请求处理完成关闭服务。
+ | 原文链接：m.zptrnf.asia/Article/details/5289471.sHtML
+
+原标题：Hands‑on：简易速率限制中间件完整实现
+简介：golang redis 客户端业务使用，Go Redis 客户端对接，实现缓存、计数器，适配各类 Redis 业务场景。
+ | 原文链接：m.zptrnf.asia/Article/details/7278396.sHtML
+
+原标题：Security：开源项目安全审计简易检查清单
+简介：多环境配置中心灵活切换方案，简易配置中心实现，支持多套环境配置，动态下发无需重启服务。
+ | 原文链接：m.zptrnf.asia/Article/details/0727259.sHtML
+
+原标题：架构笔记：数据库连接池架构参数调优思路
+简介：RPC 接口字段增减兼容处理，RPC 接口新增删除字段做好向前兼容，老版本服务不会解析报错崩溃。
+ | 原文链接：m.zptrnf.asia/Article/details/7489472.sHtML
+
+原标题：方案设计：多租户系统架构三种实现模式对比
+简介：golang 链路追踪简易实现方案，简易链路追踪实现，传递 traceId，记录调用链路，方便排查慢调用。
+ | 原文链接：m.zptrnf.asia/Article/details/2524940.sHtML
+
+原标题：golang 系统设计接口超时设计原则梳理
+简介：golang json number 数字不转 float64，使用 json.Number 保留原始数字字符串，防止大数字精度丢失。
+ | 原文链接：m.zptrnf.asia/Article/details/6268475.sHtML
+
+原标题：部署实践：容器优雅停机配置处理信号
+简介：golang go 模板执行错误捕获，捕获模板执行错误，防止模板错误直接返回空白页面。
+ | 原文链接：m.zptrnf.asia/Article/details/6305026.sHtML
+
+原标题：golang 系统设计大盘看板设计最佳实践汇总
+简介：golang go‑zero 监控指标埋点，go‑zero 内置 metrics 监控，上报业务指标对接监控平台。
+ | 原文链接：m.zptrnf.asia/Article/details/1746149.sHtML
+
+四、架构设计｜Architecture
+原标题：性能笔记：磁盘IO过高业务优化手段
+简介：golang recover 捕获 panic 使用边界，recover 只在 defer 内部生效，协程内部必须捕获本协程 panic。
+ | 原文链接：m.zptrnf.asia/Article/details/2946258.sHtML
+
+原标题：Architecture：CI/CD流水线架构完整设计思考
+简介：多实例部署 Session 共享方案，多服务实例部署场景，实现 Session 共享，保证用户登录状态跨实例生效。
+ | 原文链接：m.zptrnf.asia/Article/details/6382726.sHtML
+
+原标题：golang es 分词器选型业务适配
+简介：golang http 中间件洋葱模型原理，理解 go http 中间件洋葱模型，请求响应流转顺序，编写自定义中间件。
+ | 原文链接：m.zptrnf.asia/Article/details/5161693.sHtML
+
+原标题：实战：搭建本地对象存储兼容S3协议demo
+简介：golang 数据库连接泄露排查，定位 Go 数据库连接泄露，连接没有归还池，导致连接耗尽报错。
+ | 原文链接：m.zptrnf.asia/Article/details/4181793.sHtML
+
+原标题：golang 系统设计日志系统架构思路
+简介：golang channel 通道并发处理，讲解 Channel 用法，协程之间通过通道传递数据，做并发同步控制。
+ | 原文链接：m.zptrnf.asia/Article/details/7169145.sHtML
+
+原标题：golang mysql 悲观锁乐观锁实现
+简介：线上接口超时故障排查思路，从网络、数据库、代码逻辑逐层排查接口超时，定位慢请求根因。
+ | 原文链接：m.zptrnf.asia/Article/details/9386815.sHtML
+
+原标题：性能复盘：消息队列大量小消息性能问题优化
+简介：主干开发团队代码合并策略，讲解主干开发模式，团队代码合并流程，适合高频迭代的团队协作模式。
+ | 原文链接：m.zptrnf.asia/Article/details/7167928.sHtML
+
+原标题：架构复盘：网关层、应用层、数据库层层限流架构
+简介：golang redis stream 消息队列实战，redis stream 实现可靠消息队列，消费组、ack 确认，消息不丢失。
+ | 原文链接：m.zptrnf.asia/Article/details/4058282.sHtML
+
+原标题：多环境配置中心灵活切换方案
+简介：golang atomic 原子操作整数，atomic 加减比较交换，无锁更新整型变量，简单计数器场景。
+ | 原文链接：m.zptrnf.asia/Article/details/4858360.sHtML
+
+原标题：包管理器依赖缓存清理
+简介：golang context.Background 与 TODO 区别，Background 主流程根上下文，TODO 不确定用哪个上下文时使用。
+ | 原文链接：m.zptrnf.asia/Article/details/4058263.sHtML
+
+原标题：golang 错误包装 errors.wrap 用法
+简介：golang tidb 数据库 go 项目适配，go 程序适配 tidb，兼容 mysql 协议，分布式数据库业务开发。
+ | 原文链接：m.zptrnf.asia/Article/details/5591516.sHtML
+
+原标题：优化实践：内存池思想减少频繁分配释放
+简介：golang 配置文件热加载监听变更，监听配置文件改动，自动重新加载配置，业务即时生效无需重启。
+ | 原文链接：m.zptrnf.asia/Article/details/2939171.sHtML
+
+原标题：golang aes 对称加密解密示例
+简介：OAuth2 第三方登录服务搭建，搭建 OAuth2 服务，支持第三方账号登录，实现授权登录能力。
+ | 原文链接：m.zptrnf.asia/Article/details/5261493.sHtML
+
+原标题：新手指南：本地多版本环境共存配置
+简介：静态站点自动部署发布方案，配置流水线，代码更新自动构建静态站点并且部署上线，简化发布。
+ | 原文链接：m.zptrnf.asia/Article/details/9361405.sHtML
+
+原标题：部署复盘：服务启动顺序依赖处理方案
+简介：golang grpc metadata 元数据透传，metadata 传递 traceId、鉴权信息，全链路透传上下文信息。
+ | 原文链接：m.zptrnf.asia/Article/details/3222014.sHtML
+
+原标题：Redis 热点 key 拆分降低集群压力
+简介：golang go‑pg postgres 客户端实操，go‑pg 操作 PostgreSQL 数据库，CRUD 关联查询业务开发。
+ | 原文链接：m.zptrnf.asia/Article/details/4367963.sHtML
+
+原标题：新手向：npm/pip/maven依赖版本冲突入门排查
+简介：多环境配置中心灵活切换方案，简易配置中心实现，支持多套环境配置，动态下发无需重启服务。
+ | 原文链接：m.zptrnf.asia/Article/details/4149282.sHtML
+
+原标题：坑点：gitcherry‑pick引入不兼容代码
+简介：golang testify testify 断言库使用，testify assert require 断言，简化单元测试断言代码。
+ | 原文链接：m.zptrnf.asia/Article/details/6383626.sHtML
+
+?
